@@ -95,6 +95,10 @@ LCM_DRIVER *lcm_driver_list[] = {
 	&r63315_fhd_dsi_vdo_truly_lcm_drv,
 #endif
 
+#if defined(ILI9881_HD720_DSI_VDO_YASSY)
+	&ili9881_hd720_dsi_vdo_yassy_lcm_drv,
+#endif
+
 #if defined(NT35517_QHD_DSI_VDO)
 	&nt35517_dsi_vdo_lcm_drv,
 #endif
